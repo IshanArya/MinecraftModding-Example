@@ -63,9 +63,6 @@ public class ExampleMod
             GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
             GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " y ", 'x', Blocks.tnt, 'y', Items.gunpowder);
             
-            //smelting
-            GameRegistry.addSmelting(new ItemStack(BlockManager.customBlock), new ItemStack(ItemManager.customFood), 10.0f);
-            
             
         }
     }
