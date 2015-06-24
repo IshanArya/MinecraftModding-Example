@@ -55,6 +55,15 @@ public class ExampleMod
             
             //rules
             GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
+            ItemStack dirtStack = new ItemStack(Blocks.dirt);
+            ItemStack sandStack = new ItemStack(Blocks.sand);
+            GameRegistry.addShapelessRecipe(new ItemStack(Items.emerald, 64), dirtStack, dirtStack, dirtStack, dirtStack, sandStack, sandStack);
+            
+            //crafting
+            GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
+            GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " y ", 'x', Blocks.tnt, 'y', Items.gunpowder);
+            
+            
         }
     }
 }

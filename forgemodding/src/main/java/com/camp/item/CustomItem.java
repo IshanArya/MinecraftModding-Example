@@ -19,7 +19,7 @@ public class CustomItem extends Item {
 		
 		this.setUnlocalizedName(ExampleMod.MODID + "_" + this.name);
 		this.setCreativeTab(CreativeTabs.tabCombat);
-		//this.setMaxStackSize(1);
+		this.setMaxStackSize(1);
 		//this.setDamage(name, 10);
 	}
 
