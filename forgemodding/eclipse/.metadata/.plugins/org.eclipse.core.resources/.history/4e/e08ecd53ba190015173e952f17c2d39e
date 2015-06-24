@@ -1,0 +1,39 @@
+package com.camp.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
+
+import com.example.examplemod.ExampleMod;
+
+public class CustomFood extends ItemFood{
+
+	public final String name = "CustomFood";
+	public CustomFood(int amount, float saturation, boolean isWolfFood){
+		super(amount, saturation, isWolfFood);
+		
+		this.setUnlocalizedName(ExampleMod.MODID + "_" + name);
+		this.setCreativeTab(CreativeTabs.tabFood);
+		this.setAlwaysEdible();
+		this.setMaxStackSize(64);
+	}
+	/* (non-Javadoc)
+	 * @see net.minecraft.item.ItemFood#onFoodEaten(net.minecraft.item.ItemStack, net.minecraft.world.World, net.minecraft.entity.player.EntityPlayer)
+	 */
+	@Override
+	protected void onFoodEaten(ItemStack stack, World worldIn,
+			EntityPlayer player) {
+		// TODO Auto-generated method stub
+		player.addPotionEffect(new PotionEffect(Potion.moveSpeed.getId(), 100, 20));
+		player.addPotionEffect(new PotionEffect(Potion.resistance.getId(), 100, 20));
+		player.addPotionEffect(new PotionEffect(Potion.resistance.getId(), 100, 20));
+		player.addPotionEffect(new PotionEffect(Potion.heal.getId(), 100, 5));
+		//player.setHealth(10.0F);
+		super.onFoodEaten(stack, worldIn, player);
+	}
+	
+}

@@ -1,0 +1,17 @@
+package com.camp.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemArmor;
+import com.example.examplemod.ExampleMod;
+
+public class CustomArmor extends ItemArmor{
+
+	public final String name;
+	public CustomArmor(ArmorMaterial material, int renderIndex, int armorType, String name){
+		super(material, renderIndex, armorType);
+		
+		this.name = name;
+		this.setUnlocalizedName(ExampleMod.MODID + "_" + name);
+		this.setCreativeTab(CreativeTabs.tabCombat);
+	}
+}

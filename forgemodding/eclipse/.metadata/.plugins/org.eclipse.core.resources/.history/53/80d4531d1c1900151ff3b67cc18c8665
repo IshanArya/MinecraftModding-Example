@@ -1,0 +1,21 @@
+package com.camp.item;
+
+import net.minecraftforge.fml.common.registry.GameRegistry;
+ 
+public class ItemManager {
+ 
+	public static CustomItem customItem;
+    public static void mainRegistry() {
+        initializeItem();
+        registerItem();
+    }
+ 
+    public static void initializeItem() {
+    	customItem = new CustomItem();
+    }
+ 
+    public static void registerItem() {
+    	GameRegistry.registerItem(customItem, customItem.name);
+    }
+ 
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "block/cube",
+	"textures": {
+		"up": "examplemod:blocks/CustomBlock_top",
+		"down": "examplemod:blocks/CustomBlock_top",
+		"north": "examplemod:blocks/CustomBlock_side",
+		"south": "examplemod:blocks/CustomBlock_side",
+		"east": "examplemod:blocks/CustomBlock_side",
+		"west": "examplemod:blocks/CustomBlock_side",
+		"particle": "examplemod:blocks/CustomBlock_side"
+	}
+}

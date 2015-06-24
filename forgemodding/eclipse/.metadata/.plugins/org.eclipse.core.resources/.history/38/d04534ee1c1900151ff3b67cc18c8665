@@ -1,0 +1,18 @@
+package com.camp.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemPickaxe;
+
+import com.example.examplemod.ExampleMod;
+
+public class CustomPickaxe extends ItemPickaxe{
+	
+	public final String name = "CustomPickaxe";
+	
+	public CustomPickaxe(ToolMaterial material){
+		super(material);
+		this.setUnlocalizedName(ExampleMod.MODID + "_" + name);
+		this.setCreativeTab(CreativeTabs.tabTools);
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.example.examplemod;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.relauncher.Side;
+
+import com.camp.item.ItemManager;
+
+@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
+public class ExampleMod
+{
+    public static final String MODID = "examplemod";
+    public static final String VERSION = "1.0";
+    public static ToolMaterial customToolMaterial;
+    @EventHandler
+    public void preinit (FMLPreInitializationEvent event) {
+    	customToolMaterial = EnumHelper.addToolMaterial("Custom", 3, 100, 4, 50, 0);
+    	ItemManager.mainRegistry();
+    }
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+		// some example code
+        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+        if(event.getSide() == Side.CLIENT)
+        {
+            RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+ 
+            renderItem.getItemModelMesher().register(ItemManager.customItem, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customItem.name, "inventory"));
+            renderItem.getItemModelMesher().register(ItemManager.customPickaxe, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customPickaxe.name, "inventory"));
+        }
+    }
+}

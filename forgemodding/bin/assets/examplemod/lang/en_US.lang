@@ -1,0 +1,6 @@
+item.examplemod_CustomItem.name=Gun
+item.examplemod_CustomPickaxe.name=Zeon Pickaxe
+item.examplemod_CustomSword.name=Zeon Sword
+item.examplemod_CustomFood.name=Zeon Apple
+item.examplemod_CustomHelm.name=Zeon Helmet
+title.examplemod_CustomBlock.name=Zeon Ore
