@@ -1,28 +1,30 @@
-[13:51:08] [Client thread/INFO]: Setting user: Player109
-[13:51:10] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:51:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[13:51:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:51:13] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[13:51:13] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:51:13] [Thread-9/INFO]: OpenAL initialized.
-[13:51:13] [Sound Library Loader/INFO]: Sound engine started
-[13:51:14] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:51:15] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[13:51:15] [Client thread/INFO]: SoundSystem shutting down...
-[13:51:15] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[13:51:15] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:51:16] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[13:51:16] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:51:16] [Thread-11/INFO]: OpenAL initialized.
-[13:51:16] [Sound Library Loader/INFO]: Sound engine started
-[13:51:17] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:51:20] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[13:51:20] [Server thread/INFO]: Generating keypair
-[13:51:21] [Server thread/INFO]: Preparing start region for level 0
-[13:51:22] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:51:23] [Server thread/INFO]: Player109[local:E:006e2416] logged in with entity id 319 at (33.07594568062737, 63.0, -2.626348545400735)
-[13:51:23] [Server thread/INFO]: Player109 joined the game
-[13:51:23] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@41c6dbac[id=fe207da4-45aa-3a2a-bf67-72a700290388,name=Player109,properties={},legacy=false]
+[15:41:11] [Client thread/INFO]: Setting user: Player360
+[15:41:13] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:41:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[15:41:16] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:41:16] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[15:41:16] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:41:16] [Thread-9/INFO]: OpenAL initialized.
+[15:41:16] [Sound Library Loader/INFO]: Sound engine started
+[15:41:18] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:41:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[15:41:19] [Client thread/INFO]: SoundSystem shutting down...
+[15:41:19] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:41:19] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[15:41:19] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[15:41:19] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:41:19] [Thread-11/INFO]: OpenAL initialized.
+[15:41:19] [Sound Library Loader/INFO]: Sound engine started
+[15:41:20] [Client thread/INFO]: Created: 512x512 textures-atlas
+[15:41:23] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[15:41:23] [Server thread/INFO]: Generating keypair
+[15:41:23] [Server thread/INFO]: Preparing start region for level 0
+[15:41:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[15:41:25] [Server thread/INFO]: Player360[local:E:4250e57c] logged in with entity id 295 at (23.125190150163363, 64.0, 5.265540782096843)
+[15:41:25] [Server thread/INFO]: Player360 joined the game
+[15:41:28] [Server thread/INFO]: Player360 has just earned the achievement [Taking Inventory]
+[15:41:28] [Client thread/INFO]: [CHAT] Player360 has just earned the achievement [Taking Inventory]
+[15:41:42] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@38ee2348[id=de2b0524-f0fe-3ddf-9581-f7fcb562ed9e,name=Player360,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -43,41 +45,24 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_31]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_31]
-[13:51:55] [Server thread/INFO]: [Player109: Set own game mode to Survival Mode]
-[13:51:55] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[13:52:05] [Client thread/INFO]: [CHAT] '`' is not a valid number
-[13:52:08] [Server thread/INFO]: [Player109: Set own game mode to Creative Mode]
-[13:52:08] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[13:52:25] [Server thread/INFO]: [Player109: Set own game mode to Survival Mode]
-[13:52:25] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[13:53:19] [Server thread/INFO]: [Player109: Set own game mode to Creative Mode]
-[13:53:19] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[13:55:47] [Server thread/INFO]: Saving and pausing game...
-[13:55:47] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[13:55:47] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[13:55:47] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[13:55:53] [Client thread/INFO]: Started on 50363
-[13:55:53] [Client thread/INFO]: [CHAT] Local game hosted on port 50363
-[13:58:08] [Server thread/INFO]: com.mojang.authlib.GameProfile@7bce5648[id=<null>,name=Player871,properties={},legacy=false] (/128.112.110.86:52794) lost connection: Disconnected
-[14:00:01] [Server thread/INFO]: [Player109: Set own game mode to Survival Mode]
-[14:00:01] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:00:12] [Server thread/INFO]: [Player109: Set own game mode to Creative Mode]
-[14:00:12] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:00:25] [Server thread/INFO]: [Player109: Changing to rain and thunder]
-[14:00:25] [Client thread/INFO]: [CHAT] Changing to rain and thunder
-[14:04:11] [Server thread/INFO]: [Player109: Set own game mode to Survival Mode]
-[14:04:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:04:43] [Server thread/INFO]: [Player109: Set own game mode to Creative Mode]
-[14:04:43] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:05:10] [Server thread/INFO]: Player109 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[14:05:10] [Server thread/INFO]: Player109 left the game
-[14:05:10] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[14:05:10] [Server thread/INFO]: Stopping server
-[14:05:10] [Server thread/INFO]: Saving players
-[14:05:10] [Server thread/INFO]: Saving worlds
-[14:05:10] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[14:05:10] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[14:05:10] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[14:05:13] [Client thread/INFO]: Stopping!
-[14:05:13] [Client thread/INFO]: SoundSystem shutting down...
-[14:05:13] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[15:41:59] [Server thread/INFO]: [Player360: Set own game mode to Survival Mode]
+[15:41:59] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:42:29] [Server thread/INFO]: [Player360: Given Instant Damage (ID 7) * 10 to Player360 for 1000 seconds]
+[15:42:29] [Server thread/INFO]: Player360 was killed by magic
+[15:42:29] [Client thread/INFO]: [CHAT] Given Instant Damage (ID 7) * 10 to Player360 for 1000 seconds
+[15:42:29] [Client thread/INFO]: [CHAT] Player360 was killed by magic
+[15:43:30] [Server thread/INFO]: [Player360: Set game difficulty to Peaceful]
+[15:43:30] [Client thread/INFO]: [CHAT] Set game difficulty to Peaceful
+[15:44:51] [Server thread/INFO]: Saving and pausing game...
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[15:44:51] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[15:44:52] [Server thread/INFO]: Stopping server
+[15:44:52] [Server thread/INFO]: Saving players
+[15:44:52] [Server thread/INFO]: Saving worlds
+[15:44:52] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[15:44:52] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[15:44:52] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[15:44:54] [Client thread/INFO]: Stopping!
+[15:44:54] [Client thread/INFO]: SoundSystem shutting down...
+[15:44:54] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

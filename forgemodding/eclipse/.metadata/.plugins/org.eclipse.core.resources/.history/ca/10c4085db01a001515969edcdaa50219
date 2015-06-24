@@ -36,7 +36,7 @@ public class ExampleMod
     	customArmorMaterial = EnumHelper.addArmorMaterial("Zeon","Zeon", 1000, new int[]{100, 100, 100, 100}, 100);
     	ItemManager.mainRegistry();
     	BlockManager.mainRegistry();
-    	createEntity(CustomMob.class, "CustomMob", 0x220020, 0x001F00);
+    	createEntity(CustomMob.class, "CustomMob", 0x00FF00, 0xFF0000);
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
