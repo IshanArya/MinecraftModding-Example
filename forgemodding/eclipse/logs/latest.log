@@ -1,46 +1,28 @@
-[09:32:53] [Client thread/INFO]: Setting user: Player593
-[09:32:55] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:32:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[09:32:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:32:58] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[09:32:58] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:32:58] [Thread-9/INFO]: OpenAL initialized.
-[09:32:59] [Sound Library Loader/INFO]: Sound engine started
-[09:33:00] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:33:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[09:33:01] [Client thread/INFO]: SoundSystem shutting down...
-[09:33:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[09:33:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:33:02] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[09:33:02] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:33:02] [Thread-11/INFO]: OpenAL initialized.
-[09:33:02] [Sound Library Loader/INFO]: Sound engine started
-[09:33:03] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:33:34] [Client thread/INFO]: Stopping!
-[09:33:34] [Cl[09:33:34] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:33:37] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[09:33:37] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:33:37] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[09:33:37] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:33:37] [Thread-8/INFO]: OpenAL initialized.
-[09:33:38] [Sound Library Loader/INFO]: Sound engine started
-[09:33:39] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:33:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[09:33:40] [Client thread/INFO]: SoundSystem shutting down...
-[09:33:40] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[09:33:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[09:33:40] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[09:33:40] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[09:33:40] [Thread-10/INFO]: OpenAL initialized.
-[09:33:41] [Sound Library Loader/INFO]: Sound engine started
-[09:33:41] [Client thread/INFO]: Created: 512x512 textures-atlas
-[09:33:49] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[09:33:49] [Server thread/INFO]: Generating keypair
-[09:33:49] [Server thread/INFO]: Preparing start region for level 0
-[09:33:50] [Server thread/INFO]: Changing view distance to 12, from 10
-[09:33:51] [Server thread/INFO]: Player734[local:E:e5e77857] logged in with entity id 240 at (19.824323353466177, 64.0, 0.20335107915013026)
-[09:33:51] [Server thread/INFO]: Player734 joined the game
-[09:33:52] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@c98017f[id=3f66a67c-db6c-36b7-b762-d7a40c17883b,name=Player734,properties={},legacy=false]
+[10:51:48] [Client thread/INFO]: Setting user: Player796
+[10:51:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:51:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[10:51:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[10:51:53] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[10:51:53] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:51:53] [Thread-9/INFO]: OpenAL initialized.
+[10:51:53] [Sound Library Loader/INFO]: Sound engine started
+[10:51:55] [Client thread/INFO]: Created: 512x512 textures-atlas
+[10:51:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[10:51:55] [Client thread/INFO]: SoundSystem shutting down...
+[10:51:56] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[10:51:56] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[10:51:56] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[10:51:56] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:51:56] [Thread-11/INFO]: OpenAL initialized.
+[10:51:56] [Sound Library Loader/INFO]: Sound engine started
+[10:51:57] [Client thread/INFO]: Created: 512x512 textures-atlas
+[10:52:00] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[10:52:00] [Server thread/INFO]: Generating keypair
+[10:52:00] [Server thread/INFO]: Preparing start region for level 0
+[10:52:01] [Server thread/INFO]: Changing view distance to 12, from 10
+[10:52:02] [Server thread/INFO]: Player796[local:E:94ddeeff] logged in with entity id 293 at (14.861089775681572, 65.0, 1.6999999880790708)
+[10:52:02] [Server thread/INFO]: Player796 joined the game
+[10:52:03] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6f7a6cc9[id=eb3e37b3-0c87-3026-b460-637c38fd4fdd,name=Player796,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -61,68 +43,18 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_31]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_31]
-[09:33:52] [Server thread/INFO]: Saving and pausing game...
-[09:33:52] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[09:33:52] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[09:33:52] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[09:33:56] [Server thread/INFO]: Player734 has just earned the achievement [Taking Inventory]
-[09:33:56] [Client thread/INFO]: [CHAT] Player734 has just earned the achievement [Taking Inventory]
-[09:33:59] [Server thread/INFO]: [Player734: Set own game mode to Creative Mode]
-[09:33:59] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:34:19] [Server thread/INFO]: [Player734: Set own game mode to Survival Mode]
-[09:34:19] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:34:23] [Server thread/INFO]: [Player734: Set own game mode to Creative Mode]
-[09:34:23] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:34:29] [Server thread/INFO]: [Player734: Set own game mode to Survival Mode]
-[09:34:29] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:35:30] [Server thread/INFO]: [Player734: Set own game mode to Creative Mode]
-[09:35:30] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:36:00] [Server thread/INFO]: [Player734: Given Invisibility (ID 14) * 10 to Player734 for 1000 seconds]
-[09:36:00] [Client thread/INFO]: [CHAT] Given Invisibility (ID 14) * 10 to Player734 for 1000 seconds
-[09:36:08] [Server thread/INFO]: [Player734: Given Haste (ID 3) * 10 to Player734 for 1000 seconds]
-[09:36:08] [Client thread/INFO]: [CHAT] Given Haste (ID 3) * 10 to Player734 for 1000 seconds
-[09:36:15] [Server thread/INFO]: [Player734: Given Jump Boost (ID 8) * 10 to Player734 for 1000 seconds]
-[09:36:15] [Client thread/INFO]: [CHAT] Given Jump Boost (ID 8) * 10 to Player734 for 1000 seconds
-[09:36:22] [Server thread/INFO]: [Player734: Given Nausea (ID 9) * 10 to Player734 for 1000 seconds]
-[09:36:22] [Client thread/INFO]: [CHAT] Given Nausea (ID 9) * 10 to Player734 for 1000 seconds
-[09:36:29] [Server thread/INFO]: [Player734: Given Regeneration (ID 10) * 10 to Player734 for 1000 seconds]
-[09:36:29] [Client thread/INFO]: [CHAT] Given Regeneration (ID 10) * 10 to Player734 for 1000 seconds
-[09:36:35] [Server thread/INFO]: [Player734: Given Resistance (ID 11) * 10 to Player734 for 1000 seconds]
-[09:36:35] [Client thread/INFO]: [CHAT] Given Resistance (ID 11) * 10 to Player734 for 1000 seconds
-[09:36:40] [Server thread/INFO]: [Player734: Given Slowness (ID 2) * 10 to Player734 for 1000 seconds]
-[09:36:40] [Client thread/INFO]: [CHAT] Given Slowness (ID 2) * 10 to Player734 for 1000 seconds
-[09:36:45] [Server thread/INFO]: [Player734: Given Fire Resistance (ID 12) * 10 to Player734 for 1000 seconds]
-[09:36:45] [Client thread/INFO]: [CHAT] Given Fire Resistance (ID 12) * 10 to Player734 for 1000 seconds
-[09:36:50] [Server thread/INFO]: [Player734: Given Blindness (ID 15) * 10 to Player734 for 1000 seconds]
-[09:36:50] [Client thread/INFO]: [CHAT] Given Blindness (ID 15) * 10 to Player734 for 1000 seconds
-[09:36:55] [Server thread/INFO]: [Player734: Given Night Vision (ID 16) * 10 to Player734 for 1000 seconds]
-[09:36:55] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player734 for 1000 seconds
-[09:37:12] [Server thread/INFO]: [Player734: Given Night Vision (ID 16) * 10 to Player734 for 1000 seconds]
-[09:37:12] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player734 for 1000 seconds
-[09:37:38] [Server thread/INFO]: [Player734: Set the time to 0]
-[09:37:38] [Client thread/INFO]: [CHAT] Set the time to 0
-[09:37:47] [Server thread/INFO]: [Player734: Set the time to 15000]
-[09:37:47] [Client thread/INFO]: [CHAT] Set the time to 15000
-[09:38:20] [Server thread/INFO]: [Player734: Set own game mode to Survival Mode]
-[09:38:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:38:23] [Server thread/INFO]: Player734 was slain by ZFeaster
-[09:38:23] [Client thread/INFO]: [CHAT] Player734 was slain by ZFeaster
-[09:38:42] [Server thread/INFO]: Player734 was slain by ZFeaster
-[09:38:42] [Client thread/INFO]: [CHAT] Player734 was slain by ZFeaster
-[09:41:20] [Server thread/INFO]: [Player734: Set own game mode to Survival Mode]
-[09:41:20] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:41:24] [Server thread/INFO]: [Player734: Set own game mode to Creative Mode]
-[09:41:24] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:43:24] [Server thread/INFO]: Saving and pausing game...
-[09:43:24] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[09:43:24] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[09:43:24] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[09:43:25] [Server thread/INFO]: Stopping server
-[09:43:25] [Server thread/INFO]: Saving players
-[09:43:25] [Server thread/INFO]: Saving worlds
-[09:43:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[09:43:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[09:43:25] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[09:43:26] [Client thread/INFO]: Stopping!
-[09:43:26] [Client thread/INFO]: SoundSystem shutting down...
-[09:43:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[10:52:14] [Server thread/INFO]: [Player796: Set own game mode to Survival Mode]
+[10:52:14] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[10:53:11] [Server thread/INFO]: Saving and pausing game...
+[10:53:11] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[10:53:11] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[10:53:11] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[10:53:12] [Server thread/INFO]: Stopping server
+[10:53:12] [Server thread/INFO]: Saving players
+[10:53:12] [Server thread/INFO]: Saving worlds
+[10:53:12] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[10:53:12] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[10:53:12] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[10:53:14] [Client thread/INFO]: Stopping!
+[10:53:14] [Client thread/INFO]: SoundSystem shutting down...
+[10:53:14] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
