@@ -1,6 +1,7 @@
 package com.example.examplemod;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.entity.EntityList;
@@ -11,6 +12,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -21,6 +23,7 @@ import net.minecraftforge.fml.relauncher.Side;
 
 import com.camp.block.BlockManager;
 import com.camp.entity.CustomMob;
+import com.camp.entity.RenderCustomBiped;
 import com.camp.item.ItemManager;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
@@ -56,6 +59,9 @@ public class ExampleMod
             
             //for blocks
             renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.customBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.customBlock.name, "inventory"));
+            
+            //for mobs
+            RenderingRegistry.registerEntityRenderingHandler(CustomMob.class, new RenderCustomBiped(new ModelBiped(), 0.5f));
             
             //rules
             GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
