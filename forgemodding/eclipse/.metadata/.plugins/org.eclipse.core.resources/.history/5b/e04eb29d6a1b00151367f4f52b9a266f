@@ -39,7 +39,7 @@ public class ExampleMod
     public static CustomWorldGenerator customOreGenerator;
     @EventHandler
     public void preinit (FMLPreInitializationEvent event) {
-    	customToolMaterial = EnumHelper.addToolMaterial("Zeon", 4, 10000, 1000f, 1000, 10);
+    	customToolMaterial = EnumHelper.addToolMaterial("Zeon", 3, 10000, 1000f, 1000, 10);
     	customArmorMaterial = EnumHelper.addArmorMaterial("Zeon","Zeon", 1000, new int[]{100, 100, 100, 100}, 100);
     	ItemManager.mainRegistry();
     	BlockManager.mainRegistry();

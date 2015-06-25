@@ -1,28 +1,28 @@
-[13:41:03] [Client thread/INFO]: Setting user: Player640
-[13:41:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:41:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[13:41:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:41:07] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[13:41:07] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:41:07] [Thread-9/INFO]: OpenAL initialized.
-[13:41:08] [Sound Library Loader/INFO]: Sound engine started
-[13:41:09] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:41:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[13:41:10] [Client thread/INFO]: SoundSystem shutting down...
-[13:41:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[13:41:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:41:10] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[13:41:10] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:41:10] [Thread-11/INFO]: OpenAL initialized.
-[13:41:11] [Sound Library Loader/INFO]: Sound engine started
-[13:41:11] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:41:19] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[13:41:19] [Server thread/INFO]: Generating keypair
-[13:41:19] [Server thread/INFO]: Preparing start region for level 0
-[13:41:20] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:41:21] [Server thread/INFO]: Player640[local:E:037ac86b] logged in with entity id 247 at (20.960349106949757, 64.0, 8.37442059267062)
-[13:41:21] [Server thread/INFO]: Player640 joined the game
-[13:41:22] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7fbb0f0f[id=dfa57433-6d23-31fd-a282-bdca1175e553,name=Player640,properties={},legacy=false]
+[14:47:25] [Client thread/INFO]: Setting user: Player351
+[14:47:27] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:47:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[14:47:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:47:30] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[14:47:30] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:47:30] [Thread-9/INFO]: OpenAL initialized.
+[14:47:30] [Sound Library Loader/INFO]: Sound engine started
+[14:47:31] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:47:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[14:47:32] [Client thread/INFO]: SoundSystem shutting down...
+[14:47:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:47:32] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:47:32] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[14:47:32] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:47:32] [Thread-11/INFO]: OpenAL initialized.
+[14:47:33] [Sound Library Loader/INFO]: Sound engine started
+[14:47:34] [Client thread/INFO]: Created: 512x512 textures-atlas
+[14:47:47] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[14:47:47] [Server thread/INFO]: Generating keypair
+[14:47:48] [Server thread/INFO]: Preparing start region for level 0
+[14:47:49] [Server thread/INFO]: Changing view distance to 12, from 10
+[14:47:49] [Server thread/INFO]: Player351[local:E:12d97d1d] logged in with entity id 243 at (20.08409556107428, 64.0, 2.893605380445968)
+[14:47:49] [Server thread/INFO]: Player351 joined the game
+[14:47:50] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@12c338fe[id=3f18158e-f2c1-3129-a134-25632e6b98da,name=Player351,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -43,70 +43,37 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_31]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_31]
-[13:41:25] [Server thread/INFO]: Saving and pausing game...
-[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[13:41:26] [Server thread/INFO]: Stopping server
-[13:41:26] [Server thread/INFO]: Saving players
-[13:41:26] [Server thread/INFO]: Saving worlds
-[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[13:41:45] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[13:41:45] [Server thread/INFO]: Generating keypair
-[13:41:45] [Server thread/INFO]: Converting map!
-[13:41:45] [Server thread/INFO]: Scanning folders...
-[13:41:45] [Server thread/INFO]: Total conversion count is 0
-[13:41:45] [Server thread/INFO]: Preparing start region for level 0
-[13:41:46] [Server thread/INFO]: Preparing spawn area: 13%
-[13:41:47] [Server thread/INFO]: Preparing spawn area: 28%
-[13:41:48] [Server thread/INFO]: Preparing spawn area: 44%
-[13:41:49] [Server thread/INFO]: Preparing spawn area: 60%
-[13:41:50] [Server thread/INFO]: Preparing spawn area: 76%
-[13:41:51] [Server thread/INFO]: Preparing spawn area: 93%
-[13:41:51] [Server thread/INFO]: Changing view distance to 12, from 10
-[13:41:52] [Server thread/INFO]: Player640[local:E:3a7a9a8f] logged in with entity id 7285 at (-129.5, 64.0, 291.5)
-[13:41:52] [Server thread/INFO]: Player640 joined the game
-[13:41:55] [Server thread/INFO]: Player640 has just earned the achievement [Taking Inventory]
-[13:41:55] [Client thread/INFO]: [CHAT] Player640 has just earned the achievement [Taking Inventory]
-[13:42:33] [Server thread/INFO]: [Player640: Given Resistance (ID 11) * 10 to Player640 for 10000 seconds]
-[13:42:33] [Client thread/INFO]: [CHAT] Given Resistance (ID 11) * 10 to Player640 for 10000 seconds
-[13:42:38] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
-[13:42:38] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
-[13:45:16] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
-[13:45:16] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
-[13:46:43] [Client thread/ERROR]: Item entity 1029051 has no item?!
-[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
-[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
-[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
-[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
-[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
-[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
-[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
-[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
-[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
-[13:51:34] [Client thread/ERROR]: Item entity 2596348 has no item?!
-[13:52:49] [Server thread/INFO]: [Player640: Given Speed (ID 1) * 5 to Player640 for 10000 seconds]
-[13:52:49] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 5 to Player640 for 10000 seconds
-[13:53:01] [Server thread/INFO]: [Player640: Set own game mode to Survival Mode]
-[13:53:01] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[13:53:45] [Server thread/WARN]: Player640 moved wrongly!
-[13:54:36] [Server thread/INFO]: Player640 was slain by ZFeaster
-[13:54:36] [Client thread/INFO]: [CHAT] Player640 was slain by ZFeaster
-[13:54:48] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 5 to Player640 for 10000 seconds]
-[13:54:48] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 5 to Player640 for 10000 seconds
-[13:54:53] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
-[13:54:53] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
-[13:56:48] [Server thread/INFO]: Player640 was slain by ZFeaster
-[13:56:48] [Client thread/INFO]: [CHAT] Player640 was slain by ZFeaster
-[13:57:20] [Server thread/INFO]: Saving and pausing game...
-[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Overworld
-[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Nether
-[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/The End
-[13:57:21] [Server thread/INFO]: Stopping server
-[13:57:21] [Server thread/INFO]: Saving players
-[13:57:21] [Server thread/INFO]: Saving worlds
-[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Overworld
-[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Nether
-[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/The End
+[14:48:07] [Server thread/INFO]: Player351 has just earned the achievement [Taking Inventory]
+[14:48:07] [Client thread/INFO]: [CHAT] Player351 has just earned the achievement [Taking Inventory]
+[14:48:33] [Server thread/INFO]: [Player351: Set own game mode to Survival Mode]
+[14:48:33] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[14:49:05] [Server thread/INFO]: [Player351: Set own game mode to Creative Mode]
+[14:49:05] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:00:48] [Server thread/INFO]: [Player351: Set own game mode to Survival Mode]
+[15:00:48] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:03:13] [Server thread/WARN]: Player351 moved wrongly!
+[15:04:17] [Server thread/INFO]: [Player351: Set own game mode to Creative Mode]
+[15:04:17] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:06:03] [Server thread/INFO]: [Player351: Set own game mode to Survival Mode]
+[15:06:03] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:06:38] [Server thread/INFO]: [Player351: Set own game mode to Survival Mode]
+[15:06:38] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:06:40] [Server thread/INFO]: [Player351: Set own game mode to Creative Mode]
+[15:06:40] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:08:21] [Server thread/INFO]: [Player351: Set own game mode to Survival Mode]
+[15:08:21] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:09:05] [Server thread/INFO]: [Player351: Set own game mode to Creative Mode]
+[15:09:05] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[15:15:21] [Server thread/INFO]: Saving and pausing game...
+[15:15:21] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[15:15:22] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[15:15:22] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[15:15:22] [Server thread/INFO]: Stopping server
+[15:15:22] [Server thread/INFO]: Saving players
+[15:15:22] [Server thread/INFO]: Saving worlds
+[15:15:22] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[15:15:22] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[15:15:22] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[15:15:23] [Client thread/INFO]: Stopping!
+[15:15:23] [Client thread/INFO]: SoundSystem shutting down...
+[15:15:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

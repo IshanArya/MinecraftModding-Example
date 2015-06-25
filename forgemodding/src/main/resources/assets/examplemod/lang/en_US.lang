@@ -3,5 +3,5 @@ item.examplemod_CustomPickaxe.name=Zeon Pickaxe
 item.examplemod_CustomSword.name=Zeon Sword
 item.examplemod_CustomFood.name=Zeon Apple
 item.examplemod_CustomHelm.name=Zeon Helmet
-tile.examplemod_CustomBlock.name=Zeon Ore
+tile.examplemod_CustomBlock.name=Zeon Boom
 entity.CustomMob.name=ZFeaster

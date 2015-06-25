@@ -28,7 +28,7 @@ public class CustomBlock extends Block{
 		this.setLightLevel(1.0f);
 		this.setHardness(75f);
 		this.setResistance(13000000f);
-		this.setHarvestLevel("pickaxe", 4);
+		this.setHarvestLevel("pickaxe", 3);
 	}
 	
 	public boolean canProvidePower(){
