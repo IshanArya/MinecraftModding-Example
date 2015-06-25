@@ -1,0 +1,108 @@
+package com.example.examplemod;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.client.renderer.entity.RenderItem;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.entity.EntityList;
+import net.minecraft.entity.EnumCreatureType;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.biome.BiomeGenBase;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.EntityRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.relauncher.Side;
+
+import com.camp.block.BlockManager;
+import com.camp.entity.CustomMob;
+import com.camp.entity.RenderCustomBiped;
+import com.camp.item.ItemManager;
+import com.camp.world.CustomWorldGenerator;
+
+@Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
+public class ExampleMod
+{
+    public static final String MODID = "examplemod";
+    public static final String VERSION = "1.0";
+    public static ToolMaterial customToolMaterial;
+    public static ArmorMaterial customArmorMaterial;
+    public static CustomWorldGenerator customOreGenerator;
+    @EventHandler
+    public void preinit (FMLPreInitializationEvent event) {
+    	customToolMaterial = EnumHelper.addToolMaterial("Zeon", 4, 10000, 1000f, 1000, 10);
+    	customArmorMaterial = EnumHelper.addArmorMaterial("Zeon","Zeon", 1000, new int[]{100, 100, 100, 100}, 100);
+    	ItemManager.mainRegistry();
+    	BlockManager.mainRegistry();
+    	createEntity(CustomMob.class, "CustomMob", 0x220020, 0x001F00);
+    }
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+		// some example code
+        System.out.println("DIRT BLOCK >> "+Blocks.dirt.getUnlocalizedName());
+        if(event.getSide() == Side.CLIENT)
+        {
+            RenderItem renderItem = Minecraft.getMinecraft().getRenderItem();
+ 
+            //for items
+            renderItem.getItemModelMesher().register(ItemManager.customItem, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customItem.name, "inventory"));
+            renderItem.getItemModelMesher().register(ItemManager.customPickaxe, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customPickaxe.name, "inventory"));
+            renderItem.getItemModelMesher().register(ItemManager.customSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customSword.name, "inventory")); //examplemod:CustomSword
+            renderItem.getItemModelMesher().register(ItemManager.customFood, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customFood.name, "inventory"));
+            renderItem.getItemModelMesher().register(ItemManager.customHelm, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customHelm.name, "inventory"));
+            
+            //for blocks
+            renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.customBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.customBlock.name, "inventory"));
+            renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeonOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeonOre.name, "inventory"));
+            
+            //for mobs
+            RenderingRegistry.registerEntityRenderingHandler(CustomMob.class, new RenderCustomBiped(new ModelBiped(), 0.5f));
+            	//register for spawning on own
+            addSpawn(CustomMob.class, 1000, 1, 5, EnumCreatureType.MONSTER);
+            
+            //shapeless crafting
+            GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
+            ItemStack dirtStack = new ItemStack(Blocks.dirt);
+            ItemStack sandStack = new ItemStack(Blocks.sand);
+            GameRegistry.addShapelessRecipe(new ItemStack(Items.emerald, 64), dirtStack, dirtStack, dirtStack, dirtStack, sandStack, sandStack);
+            
+            //shaped crafting
+            GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
+            GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " y ", 'x', Blocks.tnt, 'y', Items.gunpowder);
+            
+            //smelting
+            GameRegistry.addSmelting(new ItemStack(BlockManager.customBlock), new ItemStack(ItemManager.customFood), 10.0f);
+            
+            //ore generation
+            customOreGenerator = new CustomWorldGenerator();
+            GameRegistry.registerWorldGenerator(customOreGenerator, 2);
+            
+            
+        }
+    }
+    
+    public static void createEntity(Class entityClass, String entityName, int solidColor, int spotColor){
+    	int entityId = EntityRegistry.findGlobalUniqueEntityId();
+    	EntityRegistry.registerGlobalEntityID(entityClass, entityName, entityId);
+    	
+    	EntityList.entityEggs.put(Integer.valueOf(entityId), new EntityList.EntityEggInfo(entityId, solidColor, spotColor));
+    }
+    
+    public static void addSpawn(Class entityClass, int probability, int min, int max, EnumCreatureType type){
+    	for(int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++){
+    		if(BiomeGenBase.getBiomeGenArray()[i] != null){
+    			EntityRegistry.addSpawn(entityClass, probability, min, max, type, BiomeGenBase.getBiomeGenArray()[i]);
+    		}
+    	}
+    }
+}

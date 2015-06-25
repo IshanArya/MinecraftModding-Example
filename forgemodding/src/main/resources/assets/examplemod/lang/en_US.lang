@@ -5,3 +5,4 @@ item.examplemod_CustomFood.name=Zeon Apple
 item.examplemod_CustomHelm.name=Zeon Helmet
 tile.examplemod_CustomBlock.name=Zeon Boom
 entity.CustomMob.name=ZFeaster
+tile.examplemod_ZeonBlock.name=Block of Zeon

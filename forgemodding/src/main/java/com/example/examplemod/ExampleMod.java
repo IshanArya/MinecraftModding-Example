@@ -63,6 +63,7 @@ public class ExampleMod
             
             //for blocks
             renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.customBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.customBlock.name, "inventory"));
+            renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeonBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeonBlock.name, "inventory"));
             
             //for mobs
             RenderingRegistry.registerEntityRenderingHandler(CustomMob.class, new RenderCustomBiped(new ModelBiped(), 0.5f));
