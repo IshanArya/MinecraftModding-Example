@@ -10,9 +10,11 @@
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="com.example.examplemod.ExampleMod"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
-<fullyQualifiedTypeName name="com.camp.item.ItemManager"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 <fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityList.EntityEggInfo"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.client.registry.RenderingRegistry"/>
+<fullyQualifiedTypeName name="com.camp.item.ItemManager"/>
+<fullyQualifiedTypeName name="com.camp.block.BlockManager"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 </qualifiedTypeNameHistroy>

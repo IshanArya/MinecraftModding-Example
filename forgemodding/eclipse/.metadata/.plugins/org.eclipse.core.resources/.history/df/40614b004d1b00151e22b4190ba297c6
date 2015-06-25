@@ -5,14 +5,12 @@ import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.entity.RenderItem;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.entity.EntityList;
-import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.world.biome.BiomeGenBase;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
@@ -64,16 +62,14 @@ public class ExampleMod
             
             //for mobs
             RenderingRegistry.registerEntityRenderingHandler(CustomMob.class, new RenderCustomBiped(new ModelBiped(), 0.5f));
-            	//register for spawning on own
-            addSpawn(CustomMob.class, 1000, 1, 5, EnumCreatureType.MONSTER);
             
-            //shapeless crafting
+            //rules
             GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
             ItemStack dirtStack = new ItemStack(Blocks.dirt);
             ItemStack sandStack = new ItemStack(Blocks.sand);
             GameRegistry.addShapelessRecipe(new ItemStack(Items.emerald, 64), dirtStack, dirtStack, dirtStack, dirtStack, sandStack, sandStack);
             
-            //shaped crafting
+            //crafting
             GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
             GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " y ", 'x', Blocks.tnt, 'y', Items.gunpowder);
             
@@ -89,13 +85,5 @@ public class ExampleMod
     	EntityRegistry.registerGlobalEntityID(entityClass, entityName, entityId);
     	
     	EntityList.entityEggs.put(Integer.valueOf(entityId), new EntityList.EntityEggInfo(entityId, solidColor, spotColor));
-    }
-    
-    public static void addSpawn(Class entityClass, int probability, int min, int max, EnumCreatureType type){
-    	for(int i = 0; i < BiomeGenBase.getBiomeGenArray().length; i++){
-    		if(BiomeGenBase.getBiomeGenArray()[i] != null){
-    			EntityRegistry.addSpawn(entityClass, probability, min, max, type, BiomeGenBase.getBiomeGenArray()[i]);
-    		}
-    	}
     }
 }
