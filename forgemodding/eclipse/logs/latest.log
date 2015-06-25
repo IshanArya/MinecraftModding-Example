@@ -1,32 +1,28 @@
-[11:17:04] [Client thread/INFO]: Setting user: Player781
-[11:17:05] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:17:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[11:17:08] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:17:08] [Thread-9/INFO]: Initializing LWJGL OpenAL
-[11:17:08] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:17:08] [Thread-9/INFO]: OpenAL initialized.
-[11:17:09] [Sound Library Loader/INFO]: Sound engine started
-[11:17:10] [Client thread/INFO]: Created: 512x512 textures-atlas
-[11:17:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
-[11:17:11] [Client thread/INFO]: SoundSystem shutting down...
-[11:17:11] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[11:17:11] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[11:17:11] [Thread-11/INFO]: Initializing LWJGL OpenAL
-[11:17:11] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:17:11] [Thread-11/INFO]: OpenAL initialized.
-[11:17:12] [Sound Library Loader/INFO]: Sound engine started
-[11:17:12] [Client thread/INFO]: Created: 512x512 textures-atlas
-[11:17:15] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[11:17:15] [Server thread/INFO]: Generating keypair
-[11:17:15] [Server thread/INFO]: Preparing start region for level 0
-[11:17:16] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:17:17] [Server thread/INFO]: Player781[local:E:de3f047e] logged in with entity id 246 at (12.699999988079067, 63.0, 1.6999999880790735)
-[11:17:17] [Server thread/INFO]: Player781 joined the game
-[11:17:35] [Server thread/INFO]: [Player781: Set the time to 15000]
-[11:17:35] [Client thread/INFO]: [CHAT] Set the time to 15000
-[11:17:44] [Server thread/INFO]: Player781 has just earned the achievement [Taking Inventory]
-[11:17:44] [Client thread/INFO]: [CHAT] Player781 has just earned the achievement [Taking Inventory]
-[11:17:44] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@747d4d9a[id=bf0c47d3-02b6-3463-8e38-457226b1407c,name=Player781,properties={},legacy=false]
+[13:41:03] [Client thread/INFO]: Setting user: Player640
+[13:41:04] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:41:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[13:41:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:41:07] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[13:41:07] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:41:07] [Thread-9/INFO]: OpenAL initialized.
+[13:41:08] [Sound Library Loader/INFO]: Sound engine started
+[13:41:09] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:41:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod
+[13:41:10] [Client thread/INFO]: SoundSystem shutting down...
+[13:41:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:41:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:41:10] [Thread-11/INFO]: Initializing LWJGL OpenAL
+[13:41:10] [Thread-11/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:41:10] [Thread-11/INFO]: OpenAL initialized.
+[13:41:11] [Sound Library Loader/INFO]: Sound engine started
+[13:41:11] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:41:19] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[13:41:19] [Server thread/INFO]: Generating keypair
+[13:41:19] [Server thread/INFO]: Preparing start region for level 0
+[13:41:20] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:41:21] [Server thread/INFO]: Player640[local:E:037ac86b] logged in with entity id 247 at (20.960349106949757, 64.0, 8.37442059267062)
+[13:41:21] [Server thread/INFO]: Player640 joined the game
+[13:41:22] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7fbb0f0f[id=dfa57433-6d23-31fd-a282-bdca1175e553,name=Player640,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:158) [YggdrasilMinecraftSessionService.class:?]
@@ -47,45 +43,70 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_31]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_31]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_31]
-[11:17:54] [Server thread/INFO]: [Player781: Given Night Vision (ID 16) * 10 to Player781 for 1000 seconds]
-[11:17:54] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player781 for 1000 seconds
-[11:18:48] [Client thread/INFO]: [CHAT] The entity UUID provided is in an invalid format
-[11:18:54] [Server thread/INFO]: [Player781: Given Speed (ID 1) * 2 to Player781 for 1000 seconds]
-[11:18:54] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 2 to Player781 for 1000 seconds
-[11:19:58] [Server thread/INFO]: [Player781: Given Night Vision (ID 16) * 10 to Player781 for 1000 seconds]
-[11:19:58] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player781 for 1000 seconds
-[11:20:07] [Server thread/INFO]: [Player781: Given Speed (ID 1) * 2 to Player781 for 1000 seconds]
-[11:20:07] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 2 to Player781 for 1000 seconds
-[11:21:58] [Server thread/INFO]: Saving and pausing game...
-[11:21:58] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[11:21:58] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[11:21:58] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[11:21:59] [Server thread/INFO]: Stopping server
-[11:21:59] [Server thread/INFO]: Saving players
-[11:21:59] [Server thread/INFO]: Saving worlds
-[11:21:59] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[11:21:59] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[11:21:59] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[11:22:02] [Server thread/INFO]: Starting integrated minecraft server version 1.8
-[11:22:02] [Server thread/INFO]: Generating keypair
-[11:22:02] [Server thread/INFO]: Preparing start region for level 0
-[11:22:03] [Server thread/INFO]: Changing view distance to 12, from 10
-[11:22:03] [Server thread/INFO]: Player781[local:E:f30e9065] logged in with entity id 30450 at (1.4052630065558538, 64.78608123157454, 34.372847249653866)
-[11:22:03] [Server thread/INFO]: Player781 joined the game
-[11:22:34] [Server thread/INFO]: [Player781: Set own game mode to Survival Mode]
-[11:22:34] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[11:22:38] [Server thread/INFO]: [Player781: Set own game mode to Creative Mode]
-[11:22:38] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[11:22:49] [Server thread/INFO]: Saving and pausing game...
-[11:22:49] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[11:22:49] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[11:22:49] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[11:22:50] [Server thread/INFO]: Stopping server
-[11:22:50] [Server thread/INFO]: Saving players
-[11:22:50] [Server thread/INFO]: Saving worlds
-[11:22:50] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
-[11:22:50] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
-[11:22:50] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
-[11:22:51] [Client thread/INFO]: Stopping!
-[11:22:51] [Client thread/INFO]: SoundSystem shutting down...
-[11:22:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:41:25] [Server thread/INFO]: Saving and pausing game...
+[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[13:41:25] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[13:41:26] [Server thread/INFO]: Stopping server
+[13:41:26] [Server thread/INFO]: Saving players
+[13:41:26] [Server thread/INFO]: Saving worlds
+[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/Overworld
+[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/Nether
+[13:41:26] [Server thread/INFO]: Saving chunks for level 'Yo'/The End
+[13:41:45] [Server thread/INFO]: Starting integrated minecraft server version 1.8
+[13:41:45] [Server thread/INFO]: Generating keypair
+[13:41:45] [Server thread/INFO]: Converting map!
+[13:41:45] [Server thread/INFO]: Scanning folders...
+[13:41:45] [Server thread/INFO]: Total conversion count is 0
+[13:41:45] [Server thread/INFO]: Preparing start region for level 0
+[13:41:46] [Server thread/INFO]: Preparing spawn area: 13%
+[13:41:47] [Server thread/INFO]: Preparing spawn area: 28%
+[13:41:48] [Server thread/INFO]: Preparing spawn area: 44%
+[13:41:49] [Server thread/INFO]: Preparing spawn area: 60%
+[13:41:50] [Server thread/INFO]: Preparing spawn area: 76%
+[13:41:51] [Server thread/INFO]: Preparing spawn area: 93%
+[13:41:51] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:41:52] [Server thread/INFO]: Player640[local:E:3a7a9a8f] logged in with entity id 7285 at (-129.5, 64.0, 291.5)
+[13:41:52] [Server thread/INFO]: Player640 joined the game
+[13:41:55] [Server thread/INFO]: Player640 has just earned the achievement [Taking Inventory]
+[13:41:55] [Client thread/INFO]: [CHAT] Player640 has just earned the achievement [Taking Inventory]
+[13:42:33] [Server thread/INFO]: [Player640: Given Resistance (ID 11) * 10 to Player640 for 10000 seconds]
+[13:42:33] [Client thread/INFO]: [CHAT] Given Resistance (ID 11) * 10 to Player640 for 10000 seconds
+[13:42:38] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
+[13:42:38] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
+[13:45:16] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
+[13:45:16] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
+[13:46:43] [Client thread/ERROR]: Item entity 1029051 has no item?!
+[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
+[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
+[13:50:12] [Client thread/ERROR]: Item entity 1914402 has no item?!
+[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
+[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
+[13:50:31] [Client thread/ERROR]: Item entity 2075101 has no item?!
+[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
+[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
+[13:51:31] [Client thread/ERROR]: Item entity 2573544 has no item?!
+[13:51:34] [Client thread/ERROR]: Item entity 2596348 has no item?!
+[13:52:49] [Server thread/INFO]: [Player640: Given Speed (ID 1) * 5 to Player640 for 10000 seconds]
+[13:52:49] [Client thread/INFO]: [CHAT] Given Speed (ID 1) * 5 to Player640 for 10000 seconds
+[13:53:01] [Server thread/INFO]: [Player640: Set own game mode to Survival Mode]
+[13:53:01] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[13:53:45] [Server thread/WARN]: Player640 moved wrongly!
+[13:54:36] [Server thread/INFO]: Player640 was slain by ZFeaster
+[13:54:36] [Client thread/INFO]: [CHAT] Player640 was slain by ZFeaster
+[13:54:48] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 5 to Player640 for 10000 seconds]
+[13:54:48] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 5 to Player640 for 10000 seconds
+[13:54:53] [Server thread/INFO]: [Player640: Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds]
+[13:54:53] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 10 to Player640 for 10000 seconds
+[13:56:48] [Server thread/INFO]: Player640 was slain by ZFeaster
+[13:56:48] [Client thread/INFO]: [CHAT] Player640 was slain by ZFeaster
+[13:57:20] [Server thread/INFO]: Saving and pausing game...
+[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Overworld
+[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Nether
+[13:57:20] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/The End
+[13:57:21] [Server thread/INFO]: Stopping server
+[13:57:21] [Server thread/INFO]: Saving players
+[13:57:21] [Server thread/INFO]: Saving worlds
+[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Overworld
+[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/Nether
+[13:57:21] [Server thread/INFO]: Saving chunks for level 'To Find the Ore!'/The End

@@ -27,6 +27,7 @@ import com.camp.block.BlockManager;
 import com.camp.entity.CustomMob;
 import com.camp.entity.RenderCustomBiped;
 import com.camp.item.ItemManager;
+import com.camp.world.CustomWorldGenerator;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
 public class ExampleMod
@@ -35,6 +36,7 @@ public class ExampleMod
     public static final String VERSION = "1.0";
     public static ToolMaterial customToolMaterial;
     public static ArmorMaterial customArmorMaterial;
+    public static CustomWorldGenerator customOreGenerator;
     @EventHandler
     public void preinit (FMLPreInitializationEvent event) {
     	customToolMaterial = EnumHelper.addToolMaterial("Zeon", 3, 10000, 1000f, 1000, 10);
@@ -79,6 +81,10 @@ public class ExampleMod
             
             //smelting
             GameRegistry.addSmelting(new ItemStack(BlockManager.customBlock), new ItemStack(ItemManager.customFood), 10.0f);
+            
+            //ore generation
+            customOreGenerator = new CustomWorldGenerator();
+            GameRegistry.registerWorldGenerator(customOreGenerator, 2);
             
             
         }
