@@ -6,3 +6,5 @@ item.examplemod_CustomHelm.name=Zeon Helmet
 tile.examplemod_CustomBlock.name=Zeon Boom
 entity.CustomMob.name=ZFeaster
 tile.examplemod_ZeonBlock.name=Block of Zeon
+item.examplemod_Zeon.name=Zeon
+tile.examplemod_ZeonOre.name=Zeon Ore

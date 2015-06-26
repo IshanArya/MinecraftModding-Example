@@ -6,6 +6,7 @@ public class BlockManager {
 
 	public static CustomBlock customBlock;
 	public static ZeonBlock zeonBlock;
+	public static ZeonOre zeonOre;
 	
 	public static void mainRegistry(){
 		initializeBlock();
@@ -16,10 +17,12 @@ public class BlockManager {
 	public static void initializeBlock(){
 		customBlock = new CustomBlock();
 		zeonBlock = new ZeonBlock();
+		zeonOre = new ZeonOre();
 	}
 	
 	public static void registerBlock(){
 		GameRegistry.registerBlock(customBlock, customBlock.name);
 		GameRegistry.registerBlock(zeonBlock, zeonBlock.name);
+		GameRegistry.registerBlock(zeonOre, zeonOre.name);
 	}
 }

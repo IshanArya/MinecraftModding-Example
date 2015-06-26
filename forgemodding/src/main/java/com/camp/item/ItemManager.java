@@ -12,6 +12,7 @@ public class ItemManager {
 	public static CustomSword customSword;
 	public static CustomFood customFood;
 	public static CustomArmor customHelm;
+	public static Zeon zeon;
     public static void mainRegistry() {
         initializeItem();
         registerItem();
@@ -23,6 +24,7 @@ public class ItemManager {
     	customSword = new CustomSword(ExampleMod.customToolMaterial);
     	customFood = new CustomFood(10, 1.0F, true);
     	customHelm = new CustomArmor(ExampleMod.customArmorMaterial, 0, 0, "CustomHelm");
+    	zeon = new Zeon();
     }
  
     public static void registerItem() {
@@ -31,6 +33,7 @@ public class ItemManager {
     	GameRegistry.registerItem(customSword, customSword.name);
     	GameRegistry.registerItem(customFood, customFood.name);
     	GameRegistry.registerItem(customHelm, customHelm.name);
+    	GameRegistry.registerItem(zeon, zeon.name);
     }
  
 }

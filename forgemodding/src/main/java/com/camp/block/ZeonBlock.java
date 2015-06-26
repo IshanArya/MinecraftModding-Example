@@ -18,8 +18,8 @@ public class ZeonBlock extends Block{
 		// TODO Auto-generated constructor stub
 		this.setUnlocalizedName(ExampleMod.MODID + "_" + name);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		this.setHarvestLevel("pickaxe", 3);
-		this.setHardness(60f);
+		this.setHarvestLevel("pickaxe", 4);
+		this.setHardness(75f);
 		this.setResistance(13000f);
 		this.setLightLevel(1.0f);
 		
@@ -30,18 +30,6 @@ public class ZeonBlock extends Block{
 	@Override
 	public boolean canProvidePower() {
 		return true;
-	}
-	/* (non-Javadoc)
-	 * @see net.minecraft.block.Block#onFallenUpon(net.minecraft.world.World, net.minecraft.util.BlockPos, net.minecraft.entity.Entity, float)
-	 */
-	@Override
-	public void onFallenUpon(World worldIn, BlockPos pos, Entity entityIn,
-			float fallDistance) {
-		// TODO Auto-generated method stub
-		if(entityIn instanceof EntityLivingBase){
-			((EntityLivingBase) entityIn).setHealth(2.0f);
-		}
-		super.onFallenUpon(worldIn, pos, entityIn, fallDistance);
 	}
 	
 	

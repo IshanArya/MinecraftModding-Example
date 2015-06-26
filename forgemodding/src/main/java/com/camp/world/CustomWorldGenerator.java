@@ -38,7 +38,7 @@ public class CustomWorldGenerator implements IWorldGenerator{
 			int startY = random.nextInt(32) * 16;
 			int startZ = chunkZ * 16 + random.nextInt(16);
 			BlockPos start = new BlockPos(startX, startY, startZ);
-			(new WorldGenMinable(BlockManager.customBlock.getDefaultState(), random.nextInt(5) + 10)).generate(world, random, start);
+			(new WorldGenMinable(BlockManager.zeonOre.getDefaultState(), random.nextInt(5) + 3)).generate(world, random, start);
 			
 		}
 	}

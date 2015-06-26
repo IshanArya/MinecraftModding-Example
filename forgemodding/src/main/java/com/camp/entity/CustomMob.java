@@ -46,18 +46,20 @@ public class CustomMob extends EntityMob{
 		
 		for(int i = 0; i < quantity; i++){
 			if(this.isBurning()){
-				this.dropItem(ItemManager.customItem, 1);
+				Item drop = Item.getItemFromBlock(BlockManager.zeonOre);
+				this.dropItem(drop, 1);
 			}
 			else{
-				Item drop = Item.getItemFromBlock(BlockManager.customBlock);
-				this.dropItem(drop, 1);
+				//Item drop = Item.getItemFromBlock(BlockManager.customBlock);
+				this.dropItem(ItemManager.zeon, 1);
 			}
 		}
 	}
 	
 	@Override
 	public void addRandomArmor(){
-		this.dropItem(ItemManager.customSword, 1);
+		Item here = Item.getItemFromBlock(BlockManager.zeonBlock);
+		this.dropItem(here, 1);
 	}
 
 }

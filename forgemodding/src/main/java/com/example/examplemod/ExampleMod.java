@@ -26,6 +26,8 @@ import net.minecraftforge.fml.relauncher.Side;
 import com.camp.block.BlockManager;
 import com.camp.entity.CustomMob;
 import com.camp.entity.RenderCustomBiped;
+import com.camp.entity.RenderShreyas;
+import com.camp.entity.Shreyas;
 import com.camp.item.ItemManager;
 import com.camp.world.CustomWorldGenerator;
 
@@ -44,6 +46,7 @@ public class ExampleMod
     	ItemManager.mainRegistry();
     	BlockManager.mainRegistry();
     	createEntity(CustomMob.class, "CustomMob", 0x220020, 0x001F00);
+    	createEntity(Shreyas.class, "Shreyas", 0xFF9396, 0x000000);
     }
     @EventHandler
     public void init(FMLInitializationEvent event)
@@ -60,15 +63,19 @@ public class ExampleMod
             renderItem.getItemModelMesher().register(ItemManager.customSword, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customSword.name, "inventory")); //examplemod:CustomSword
             renderItem.getItemModelMesher().register(ItemManager.customFood, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customFood.name, "inventory"));
             renderItem.getItemModelMesher().register(ItemManager.customHelm, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.customHelm.name, "inventory"));
+            renderItem.getItemModelMesher().register(ItemManager.zeon, 0, new ModelResourceLocation(this.MODID + ":" + ItemManager.zeon.name, "inventory"));
             
             //for blocks
             renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.customBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.customBlock.name, "inventory"));
             renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeonBlock), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeonBlock.name, "inventory"));
+            renderItem.getItemModelMesher().register(Item.getItemFromBlock(BlockManager.zeonOre), 0, new ModelResourceLocation(this.MODID + ":" + BlockManager.zeonOre.name, "inventory"));
             
             //for mobs
             RenderingRegistry.registerEntityRenderingHandler(CustomMob.class, new RenderCustomBiped(new ModelBiped(), 0.5f));
             	//register for spawning on own
             addSpawn(CustomMob.class, 1000, 1, 5, EnumCreatureType.MONSTER);
+            RenderingRegistry.registerEntityRenderingHandler(Shreyas.class, new RenderShreyas(new ModelBiped(), 0.5f));
+            addSpawn(Shreyas.class, 1000, 1, 5, EnumCreatureType.MONSTER);
             
             //shapeless crafting
             GameRegistry.addShapelessRecipe(new ItemStack(Items.diamond, 64), Blocks.dirt);
@@ -77,11 +84,15 @@ public class ExampleMod
             GameRegistry.addShapelessRecipe(new ItemStack(Items.emerald, 64), dirtStack, dirtStack, dirtStack, dirtStack, sandStack, sandStack);
             
             //shaped crafting
-            GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
-            GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " y ", 'x', Blocks.tnt, 'y', Items.gunpowder);
+            	//GameRegistry.addShapedRecipe(new ItemStack(Items.book), "xy", "yx", 'x', Blocks.stone, 'y', Blocks.gravel);
+            GameRegistry.addShapedRecipe(new ItemStack(BlockManager.customBlock), "xxx", " y ", " z ", 'x', Blocks.tnt, 'y', Items.gunpowder, 'z', ItemManager.zeon);
+            GameRegistry.addShapedRecipe(new ItemStack(BlockManager.zeonBlock), "xxx", "xxx", "xxx", 'x', ItemManager.zeon);
+            GameRegistry.addShapedRecipe(new ItemStack(ItemManager.customSword), " x ", " x ", " y ", 'x', ItemManager.zeon, 'y', Items.stick);
+            GameRegistry.addShapedRecipe(new ItemStack(ItemManager.customPickaxe), "xxx", " y ", " y ", 'x', ItemManager.zeon, 'y', Items.stick);
             
             //smelting
             GameRegistry.addSmelting(new ItemStack(BlockManager.customBlock), new ItemStack(ItemManager.customFood), 10.0f);
+            GameRegistry.addSmelting(new ItemStack(BlockManager.zeonOre), new ItemStack(ItemManager.zeon), 10.0f);
             
             //ore generation
             customOreGenerator = new CustomWorldGenerator();

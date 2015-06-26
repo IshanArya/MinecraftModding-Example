@@ -6,16 +6,18 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
-<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
-<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
 <fullyQualifiedTypeName name="net.minecraft.entity.EntityList.EntityEggInfo"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.client.registry.RenderingRegistry"/>
 <fullyQualifiedTypeName name="com.camp.item.ItemManager"/>
 <fullyQualifiedTypeName name="com.camp.block.BlockManager"/>
-<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.IWorldGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="com.example.examplemod.ExampleMod"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Items"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.RenderBiped"/>
+<fullyQualifiedTypeName name="com.camp.entity.RenderShreyas"/>
 </qualifiedTypeNameHistroy>
